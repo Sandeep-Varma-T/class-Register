@@ -1,0 +1,355 @@
+/* ---------------------------------------------- */
+/* --------------index.jsp CSS------------------- */
+/* ---------------------------------------------- */
+
+@charset "ISO-8859-1";
+html{
+
+    background-color: aliceblue;
+
+}
+
+
+#home{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-top: 130px;
+}
+
+#page1{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    border: 1px solid black;
+    border-radius: 4px;
+    border-style: groove;
+    padding: 50px 100px 100px 100px;
+}
+
+#register{
+
+    font-size: 60;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+#buttonFields{
+    display: flex;
+    flex-direction: row;
+}
+
+#signInstudent{
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float:left;
+}
+
+#signInAdmin{
+    padding-left: 100px;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float:left;
+}
+
+/* ---------------------------------------------- */
+/* --------------Login.jsp CSS------------------- */
+/* ---------------------------------------------- */
+
+#loginPage{
+	
+	display:flex;
+	flex-direction:column;
+	align-items:center;	
+	margin-top:10%;
+}
+
+#loginPageContainer{
+	display:flex;
+	flex-direction:column;
+	border: 2px solid black;
+	padding : 50px 100px 50px 50px;
+}
+
+#login {
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width:120%;
+  }
+  
+#loginBtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-top:10%;
+    margin-left:20%;
+
+  }
+  
+/* ---------------------------------------------- */
+/* --------------LoginFailure.jsp CSS------------------- */
+/* ---------------------------------------------- */
+  
+  .loginFailureContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginFailureTxt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    padding: 50px 50px 50px 50px;
+}
+.errMsg{
+    margin-left: 5%;
+}
+
+/* ---------------------------------------------- */
+/* --------------adminHome.jsp CSS------------------- */
+/* ---------------------------------------------- */
+
+.adminHomeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adminHomeBox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px 100px 100px 100px;
+    margin-top: 5%;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    margin-left: 100px;
+    margin-top: 5%;
+}
+
+.adminHomeBtn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+}
+
+.viewClassBtn{
+    margin-left: 50px;
+}
+
+/* ---------------------------------------------- */
+/* --------------addClass.jsp CSS------------------- */
+/* ---------------------------------------------- */
+
+.addClasscontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addClasses{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    border: 1px solid black;
+    padding: 50px 50px 50px 50px;
+    border-style: groove;
+    border-radius: 4px;
+}
+
+.addTimeBtn{
+    margin-top: 10%;
+}
+
+/* ---------------------------------------------- */
+/* --------------addClassDetails.jsp CSS------------------- */
+/* ---------------------------------------------- */
+
+.addDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addDetailsBox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 30px 200px 50px 100px;
+    margin-top: 5%;
+}
+
+.fname,.sub{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 250px;
+}
+#addClassDetailsBtn{
+    margin-top: 5%;
+}
+
+/* ---------------------------------------------- */
+/* --------------classAddedOrError.jsp CSS------------------- */
+/* ---------------------------------------------- */
+
+.addedOrErrorContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addedOrErrorBox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 50px 50px 50px 50px;
+    margin-top: 10%;
+}
+
+.errorHead{
+    margin-left: 30%;
+}
+
+#exitBtn{
+    margin-top: 30%;
+}
+
+
+/* ---------------------------------------------- */
+/* --------------viewClasses.jsp CSS------------------- */
+/* ---------------------------------------------- */
+
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tableBox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 5%;
+    padding : 50px 50px 50px 50px;
+}
+
+.courseHead{
+		margin-left: 10px;
+}
+
+.dayHead{
+	margin-left: 10%;
+}
+.classHead{
+	margin-left : 10%;
+}
+
+/* ---------------------------------------------- */
+/* --------------studentHome.jsp CSS------------------- */
+/* ---------------------------------------------- */
+
+.studetHomeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.studentHomeBox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 5%;
+    padding: 50px 50px 50px 50px;
+}
+
+.studentHomeBtn{
+    display: flex;
+    flex-direction: row;
+}
+
+.studentHomeBtnView{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.studentHomeBtnAdd{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* ---------------------------------------------- */
+/* --------------studentAddClasses.jsp CSS------------------- */
+/* ---------------------------------------------- */
+
+.registerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registerBox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 5%;
+    padding: 50px 50px 50px 50px;
+}
+
+table{
+    border: 1px solid black;
+    margin-top: 5%;
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+}
+
+tr{
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+}
+
+
+/* ---------------------------------------------- */
+/* --------------studentViewClasses.jsp CSS------------------- */
+/* ---------------------------------------------- */
+
+.stviewClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stviewBox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 5%;
+    padding: 50px 50px 50px 50px;
+}
